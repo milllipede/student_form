@@ -1,0 +1,303 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  /* background-color: rgb(27, 26, 26); */
+
+}
+.studentName{
+  margin-left: 300px;
+  padding-top: 30px;
+}
+.buttons  {
+  margin-left: 300px;
+
+  
+
+
+}
+.studentDetails b{ 
+  /* padding-left : 5%; */
+  color: red;
+}
+.studentDetails p{
+  margin-left: 20px;
+  line-height: 15px;
+}
+.buttons button{
+  margin-right: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: red;
+  color: white;
+  border: none;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  transition: ease 1s;
+}
+.buttons button:hover{
+  background-color: rgb(255, 255, 255);
+  padding-left: 30px;
+  padding-right: 30px;
+  color: red;
+}
+.studentProfile{
+  display: flex;
+}
+.StudentImage img{
+  width: 250px;
+  margin-left: 300px;
+  margin-right: 10px;
+  border-radius: 4%; 
+}
+#accordionFlushExample{
+  margin-left: 300px;
+  margin-right : 300px;
+
+}
+#profile{
+  background: rgb(143, 1, 1);
+}
+#profile:hover{
+  color: red ;
+  background: white;
+}
+.btn-btn-primaryposition-relative{
+  background-color: rgb(4, 219, 4);
+}
+#leftSide{
+  display: block;
+  /* flex-wrap: wrap; */
+  
+}
+.chart {
+  width: 750px;
+  margin: 0 auto;
+  padding: 50px;
+  background: rgb(240, 240, 240);
+  border-radius: 10px;
+}
+.headtxt{
+  color: rgb(0, 0, 0);
+}
+
+.subject {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.name {
+  display: inline-block;
+  width: 120px;
+  font-weight: bold;
+}
+
+.percentage {
+  display: inline-block;
+  width: 50px;
+  text-align: right;
+  margin-left: 10px;
+}
+.percentage1 {
+  display: inline-block;
+  width: 10px;
+  text-align: right;
+  margin-left: 10px;
+}
+.percentage2 {
+  display: inline-block;
+  width: 1622px;
+  text-align: right;
+  margin-left: 10px;
+}
+.percentage3 {
+  display: inline-block;
+  width: 136px;
+  text-align: right;
+  margin-left: 10px;
+}
+.percentage4 {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+  margin-left: 10px;
+}
+.percentage5 {
+  display: inline-block;
+  width: 190px;
+  text-align: right;
+  margin-left: 10px;
+}
+.percentage6 {
+  display: inline-block;
+  width: 111px;
+  text-align: right;
+  margin-left: 10px;
+}
+.percentage7 {
+  display: inline-block;
+  width: 20px;
+  text-align: right;
+  margin-left: 10px;
+}
+.percentage8 {
+  display: inline-block;
+  width: 67px;
+  text-align: right;
+  margin-left: 10px;
+}
+
+
+.subject:before {
+  content: "";
+  display: block;
+  width: var(--percentage);
+  height: 10px;
+  background-color: #4c66af;
+}
+.class:hover{
+  color: #d41818;
+}
+.gpa h3{
+  
+  text-align: center;
+  margin-top: 100px;
+}
+.gpa h3 span{
+  background-color: #d41818;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.tablebox{
+  margin: 50px auto;
+}
+.tablerow{
+  display: table;
+  width: 80%;
+  margin: 10px auto ;
+  background: rgb(243, 243, 243);
+  padding: 12px 0;
+  color: red;
+  font-size: 13px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 5, 0.267);
+}
+.tablecell{
+  display: table-cell;
+  width: 30%;
+  text-align: center;
+  padding: 4px 0;
+  border-right: 1px solid rgba(209, 206, 206, 0.363);
+  vertical-align: middle;
+}
+.rowone{
+  margin-left: 90px;
+  margin-right: 90px;
+  background-color: RED;
+  margin: 20px;
+}
+.rowone span{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.show p{
+  display: table;
+
+}
+.show p:hover{
+  display: flexbox;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+  .studentProfile{
+    flex-wrap: wrap;
+  }
+  .studentProfile .studentDetails{
+    margin-left: 40%;
+    margin-top: 20px;
+  }
+  .chart{
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+
+
